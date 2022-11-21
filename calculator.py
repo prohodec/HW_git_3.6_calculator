@@ -1,5 +1,5 @@
 def plus(num_1, num_2):
-    print(f"{num_1} + {num_2} = {num_1 + num_2:.2f}")
+    pass
 
 
 def minus(num_1, num_2):
