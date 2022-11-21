@@ -14,19 +14,31 @@ def division(num_1, num_2):
 
 
 def multiplication(num_1, num_2):
-    pass
+    if num_2 == 0:
+        print("cannot be multiplied by 0")
+    else:
+        print(f"{num_1} * {num_2} = {num_1 * num_2:.2f}")
 
 
 def exponentiation(num_1, num_2):
-    pass
+    if num_2 == 0:
+        print("cannot be exponentiated")
+    else:
+        print(f"{num_1} ** {num_2} = {num_1 ** num_2:.2f}")
 
 
 def square_root(num):
-    pass
+    if num == 0:
+        print("cannot be square root")
+    else:
+        print(f"{num} ** 0.5 = {num ** 0.5}")
 
 
 def cube_root(num):
-    pass
+    if num == 0:
+        print("cannot be cube root")
+    else:
+        print(f"{num} ** (1/3) = {num ** (1/3)}")
 
 
 while True:
